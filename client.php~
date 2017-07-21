@@ -1,5 +1,0 @@
-<?php
-$client= new GearmanClient();
-$client->addServer();
-print $client->do("sendMail", "Hello World!");
-?>
