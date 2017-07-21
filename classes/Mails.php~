@@ -1,0 +1,11 @@
+<?php
+
+Class Mails{
+	
+ public function sendMail($job){
+		var_dump($job);
+		var_dump($job->workload());
+		print 'sending..';
+	}
+
+}

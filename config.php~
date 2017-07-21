@@ -1,0 +1,4 @@
+<?php
+
+$config['sendMail'] = Mails::send;
+$config['cron'] = Crons::checkpayment();
