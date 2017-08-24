@@ -1,0 +1,19 @@
+{
+	"require" : {
+		"doctrine/orm" : "2.4.*",
+		"symfony/yaml" : "2.*",
+		"fzaninotto/faker" : "^1.6",
+		"zendframework/zend-stdlib" : "^3.1",
+		"zendframework/zend-hydrator": "^2.2"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"" : "src/"
+		}
+	},
+	"authors" : [{
+			"name" : "Ravi Chaudhary",
+			"email" : "rravichaudhary@gmail.com"
+		}
+	]
+}

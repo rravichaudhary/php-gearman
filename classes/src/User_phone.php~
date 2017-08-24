@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * 
+ * @author Ravi Chaudhary
+ * @Entity @Table(name="user_phone")
+ */
+Class User_phone{
+	/** @Id @Column(type="integer") @GeneratedValue **/
+	public $phone_id;
+	/** @Column(type="string") **/
+	public $number;
+	/** @ManyToOne(targetEntity="User") **/
+	public $user_id;
+}

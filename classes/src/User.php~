@@ -1,0 +1,36 @@
+<?php
+
+/**
+ *
+ * @author Ravi Chaudhary
+ * @Entity @Table(name="User")
+ *
+ */
+Class User{
+	/** @Id @Column(type="integer") @GeneratedValue **/
+	public $user_id;
+	/** @Column(type="string") **/
+	public $user_name;
+	/** @Column(type="string") **/
+	public $email;
+	/** @Column(type="string") **/
+	public $password;
+	/** @Column(type="string") **/
+	public $title;
+	/** @Column(type="string") **/
+	public $first_name;
+	/** @Column(type="string") **/
+	public $last_name;
+	/** @Column(type="string") **/
+	public $gender;
+	/** @Column(type="string") **/
+	public $ip;
+	/** @Column(type="string") **/
+	public $currency;
+	/** @Column(type="string") **/
+	public $company;
+	/** @Column(type="datetime") **/
+	public $created_on;
+	/** @Column(type="datetime") **/
+	public $updated_on;
+}
